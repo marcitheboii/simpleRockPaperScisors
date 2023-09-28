@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>RockPaperScisors.TóthMártonMarcell</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Make your choice!</h2>
+        <div class="buttons">
+        <button id="rockButton" class="button" onclick="rockChosen()"><img src="img/rock.png" alt=""></button>
+        <button id="paperButton" class="button" onclick="paperChosen()"><img src="img/paper.png" alt=""></button>
+        <button id="scisorButton" class="button" onclick="scisorChosen()"><img src="img/scisors.png" alt=""></button>
+        </div>
+        <div class="winner">
+            <p>Computer'choice: </p>
+            <p class="bold" id="computerChoice"></p>
+            <p>User's points:</p>
+            <p class="bold" id="userPoint"></p>
+            <p>Computer's points:</p>
+            <p class="bold" id="computerPoint"></p>
+        </div>
+        <h2 id="winner"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
